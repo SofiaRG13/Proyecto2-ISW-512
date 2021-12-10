@@ -1,0 +1,12 @@
+:root
+{
+    --color_gris: #606060;
+    --color_borde:rgb(226, 226, 226);
+    --color_background: rgb(247, 247, 247);
+}
+
+.container{
+    border-style:solid;
+    border-color: var(--color_borde);
+    border-width: 1.9px;
+}

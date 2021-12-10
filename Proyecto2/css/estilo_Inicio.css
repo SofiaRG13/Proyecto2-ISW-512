@@ -1,0 +1,146 @@
+:root
+{
+    --color_gris: #606060;
+    --color_borde:rgb(226, 226, 226);
+    --color_background: rgb(247, 247, 247);
+}
+
+.section1{
+    background-color: var(--color_background);
+}
+
+.img-top{
+    width: 50px;
+}
+
+.section1 .navbar{
+    background-color: var(--color_background);
+   
+}
+
+.section1 .navbar-brand,.collapse .nav-link {
+    color: var(--color_gris);
+}
+
+.section1 .navbar-collapse
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: var(--color_gris);
+}
+
+#titulo1{
+    font-weight: normal;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+#linea1{
+    font-weight: normal;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(212, 212, 212);
+}
+
+.field{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 90px;
+}
+
+#searchterm{
+    padding: 13px; 
+    width: 380px;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+#buscar{
+    padding: 13px; 
+    width: 150px;
+    font-size: 18px;
+}
+
+.section2{
+    border-style:solid;
+    border-color: var(--color_borde);
+    border-width: 1.9px;
+    border-right: 0px;
+    border-left: 0px;
+    
+}
+
+#titulo2,#titulo3{
+    font-weight: normal;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+#titulo3{
+    margin-bottom: 38px;
+}
+
+#catText{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(156, 155, 155);
+    margin-bottom: 25px;
+}
+
+.card{
+    margin: 10px;
+    margin-bottom: 45px;
+}
+
+.categorias_columnas{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
+.section4{
+    border-style:solid;
+    border-color: var(--color_borde);
+    border-width: 1.9px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.section4 .navbar{
+    background-color: white
+   
+}
+
+.section4 .navbar-brand,.collapse .nav-link {
+    color: var(--color_gris);
+}
+
+.section4 .navbar-collapse
+{
+    display: flex;
+    justify-content: center;
+}
+
+.section4 img{
+    width: 30px;
+    padding-right: 5px;
+}
+
+.section4 p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
